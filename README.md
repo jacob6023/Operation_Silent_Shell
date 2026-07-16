@@ -1,2 +1,2 @@
 # Operation_Silent_Shell
-Security Analyst challenge
+Analyzed provided logs from Security Tools.
