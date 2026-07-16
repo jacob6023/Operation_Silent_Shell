@@ -1,0 +1,47 @@
+[
+  {
+    "eventTime": "2025-07-20T04:09:58Z",
+    "eventName": "ConsoleLogin",
+    "sourceIPAddress": "198.51.100.25",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "temp-admin"
+    },
+    "responseElements": {
+      "ConsoleLogin": "Success"
+    }
+  },
+  {
+    "eventTime": "2025-07-20T04:12:33Z",
+    "eventName": "PutObject",
+    "sourceIPAddress": "198.51.100.25",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "temp-admin"
+    },
+    "requestParameters": {
+      "bucketName": "logs-backup",
+      "key": "exfil.zip"
+    }
+  },
+  {
+    "eventTime": "2025-07-20T04:14:10Z",
+    "eventName": "CreateTags",
+    "sourceIPAddress": "198.51.100.25",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "temp-admin"
+    },
+    "requestParameters": {
+      "resourcesSet": [
+        "i-0a12b34c56d789ef"
+      ],
+      "tagSet": [
+        {
+          "key": "Name",
+          "value": "pwned"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+Operation Silent Shell
+======================
+
+Your Task:
+- Investigate the artefacts and build a timeline
+- Identify the initial access vector
+- Propose remediations
+- Include a visual attack flow (draw.io styled graph)
+
+All times are in UTC unless stated otherwise.

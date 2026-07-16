@@ -1,0 +1,23 @@
+[
+  {
+    "alert_time": "2025-07-20T04:15:49Z",
+    "title": "Suspicious shell download",
+    "mitre_attack": [
+      "T1059",
+      "T1105"
+    ],
+    "severity": "High",
+    "log_source": "CrowdStrike",
+    "description": "Curl pipe to bash detected targeting external IP 203.0.113.50"
+  },
+  {
+    "alert_time": "2025-07-20T04:16:05Z",
+    "title": "Potential Persistence - Systemd Service",
+    "mitre_attack": [
+      "T1543.002"
+    ],
+    "severity": "High",
+    "log_source": "OSQuery",
+    "description": "New systemd service silent-shell.service enabled"
+  }
+]
